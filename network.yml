@@ -361,4 +361,4 @@ Outputs:
       - http://${Domain}
       - { Domain: !GetAtt WebAppLB.DNSName }
     Export:
-    Name: !Sub ${EnvironmentName}-LB-DNS
+      Name: !Sub ${EnvironmentName}-LB-DNS
